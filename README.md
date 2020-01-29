@@ -6,3 +6,5 @@ Solutions of different problems related to "divide-and-conquer" algorithms
 <b>karatsuba-multiplication</b> an algorithm of fast multiplication of decimal integers
 
 <b>inversions-number</b> counting a number of inversions in the permutation using the merge sort
+
+<b>quick-sort</b> an algorithm of Hoare's partition-exchange sort

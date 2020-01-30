@@ -17,10 +17,7 @@ def counting_sort(lst, n):
 
 def main():
     n = int(input())
-    a = []
-
-    for element in input().split():
-        a.append(int(element))
+    a = [int(element) for element in input().split()]
 
     print(*counting_sort(a, 11))
 

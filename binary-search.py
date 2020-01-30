@@ -1,6 +1,5 @@
-def binary_search(n, lst, key):
-    ls = 0
-    rs = n - 1
+def binary_search(lst, key):
+    ls, rs = 0, len(lst) - 1
 
     while ls <= rs:
         mid = (ls + rs) // 2
@@ -16,10 +15,9 @@ def binary_search(n, lst, key):
 def main():
     n, *a = map(int, input().split())
     k, *b = map(int, input().split())
-    st = ''
 
     for i in range(k):
-        print(binary_search(n, a, b[i]), end=' ')
+        print(binary_search(a, b[i]), end=' ')
 
 
 if __name__ == '__main__':

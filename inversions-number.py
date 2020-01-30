@@ -39,12 +39,9 @@ def inversions_number(lst):
 
 
 def main():
-    lst = []
-
     n = int(input())
 
-    for element in input().split():
-        lst.append([int(element)])
+    lst = [int(element) for element in input().split()]
 
     print(inversions_number(lst))
 
